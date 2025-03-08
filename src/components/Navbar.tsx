@@ -1,4 +1,5 @@
-import React from "react";
+import * as React from "react";
+console.log(React);
 import { 
     Menubar,
     MenubarContent,
@@ -82,6 +83,7 @@ const Navbar = () => {
                         <MenubarItem>Share</MenubarItem>
                         <MenubarSeparator />
                         <MenubarItem>Print</MenubarItem>
+                        
                     </MenubarContent>
                 </MenubarMenu>
             </Menubar>
